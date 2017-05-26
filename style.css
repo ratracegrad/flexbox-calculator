@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    line-height: 50px;
+}
+.flexContainer {
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.button {
+    width: 50px;
+    text-align: center;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+.orange {
+    background-color: orange;
+    color: white;
+}
+.darkGray {
+    background-color: darkgray;
+}
+.result {
+    border: 1px solid black;
+    flex-grow: 1;
+    text-align: right;
+    background: black;
+    color: white;
+    padding: 0 7px;
+}
+.doubleWidth {
+    flex: 2;
+}
